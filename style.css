@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  padding-top: 10px;
+}
+header p {
+  height: 1em;
+}
+header p img {
+  height: 100%;
+}
+header button {
+  height: 2em;
+  border-radius: 10px;
+  border: none;
+  padding: 0px 1.5em;
+}
+
+.presentation {
+  text-align: center;
+  padding: 30px;
+}
+.presentation p img {
+  height: 100%;
+  width: 100%;
+}
+.presentation__button {
+  border: none;
+  border-radius: 25px;
+  background-color: #ff52be;
+  color: white;
+  font-weight: bolder;
+  padding: 0.6em 3em;
+}
+.presentation__button:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

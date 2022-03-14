@@ -1,0 +1,23 @@
+.presentation{
+    text-align: center;
+    padding: 30px; 
+    
+    & p img{
+        height: 100%;
+        width: 100%;
+    }
+
+    &__button{
+        border: none;
+        border-radius: 25px;  
+        background-color: #ff52be;
+        color: white;
+        font-weight: bolder;
+
+        padding: .6em 3em;  
+    }
+
+    &__button:hover{
+        cursor: pointer; 
+    }
+}
