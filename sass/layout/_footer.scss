@@ -1,0 +1,28 @@
+footer{
+    margin: 0 1em; 
+}
+
+
+.icon-text{
+    display: flex; 
+    justify-content: center;  
+    align-items: flex-start; 
+    
+    font-size: .8em;   
+
+    background-color: red; 
+
+    &__icon{
+        width: 40px; 
+        margin: 3px 1em;      
+    }
+
+    &__icon svg{ 
+        height: 100%; 
+    }
+
+    &__content{
+        margin: 0; 
+        padding: 0;  
+    }
+}

@@ -8,6 +8,16 @@ html, body {
   height: 100%;
 }
 
+h1, h2, h3, h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -26,6 +36,7 @@ header button {
   border-radius: 10px;
   border: none;
   padding: 0px 1.5em;
+  background-color: white;
 }
 
 .presentation {
@@ -46,6 +57,67 @@ header button {
 }
 .presentation__button:hover {
   cursor: pointer;
+}
+
+#top-page {
+  background: #edfbfe url("/images/bg-hero-mobile.svg") no-repeat top right;
+}
+
+#cards-container {
+  margin: 4em 1em;
+}
+
+footer {
+  margin: 0 1em;
+}
+
+.icon-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 0.8em;
+  background-color: red;
+}
+.icon-text__icon {
+  width: 40px;
+  margin: 3px 1em;
+}
+.icon-text__icon svg {
+  height: 100%;
+}
+.icon-text__content {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  padding: 3em;
+  border: 1px solid black;
+  margin-bottom: 2em;
+  text-align: center;
+}
+.card__content {
+  opacity: 50%;
+}
+.card__img img {
+  height: 100%;
+  width: 100%;
+}
+
+.mini-card {
+  text-align: center;
+  border: 1px solid black;
+  padding: 0.3em;
+}
+.mini-card__title {
+  font-size: 1em;
+}
+.mini-card__button {
+  background-color: #fe52c0;
+  padding: 0.6em 3em;
+  border-radius: 25px;
+  border: none;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

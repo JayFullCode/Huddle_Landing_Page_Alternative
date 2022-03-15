@@ -1,0 +1,17 @@
+.mini-card{
+    text-align: center;   
+    border: 1px solid black; 
+    padding: .3em;  
+
+    &__title{
+        font-size: 1em; 
+    }
+
+    &__button{
+        background-color: #fe52c0; 
+        padding: .6em 3em; 
+        border-radius: 25px; 
+        border: none; 
+        color: white;
+    }
+}

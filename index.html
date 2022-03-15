@@ -6,7 +6,13 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -62,6 +68,8 @@
   &copy; Copyright 2018 Huddle. All rights reserved. -->
 
     <div id="main">
+      <div id="top-page">
+
       <header>
         <p><img src="images/logo.svg" alt="Logo icon"></p>
         <button>Try It Free</button>
@@ -74,6 +82,52 @@
         <button class="presentation__button">Get Started For Free</button>
         <p><img src="images/illustration-mockups.svg" alt="Mockups illustration"></p>
       </section>
+
+      </div>
+
+      <div id="cards-container">
+
+        <div class="card">
+          <p class="card__img"> <img src="images/illustration-grow-together.svg" alt="Illustration grow together"> </p>
+          <h2 class="card__title">Grow Together</h2>
+          <p class="card__content">Generate meaningful discussions with your audience and build a strong, loyal community. 
+            Think of the insightful conversations you miss out on with a feedback form.</p>
+        </div>
+
+        <div class="card">
+          <p class="card__img"> <img src="images/illustration-flowing-conversation.svg" alt="Illustration Flowing Conversations"> </p>
+          <h2 class="card__title">Flowing Conversations</h2>
+          <p class="card__content">You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+            have just-in-time loading for a more natural flow.</p>
+        </div>
+
+        <div class="card">
+          <p class="card__img"> <img src="images/illustration-your-users.svg" alt="Illustration Your Users"> </p>
+          <h2 class="card__title">Your Users</h2>
+          <p class="card__content">You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+            have just-in-time loading for a more natural flow.</p>
+        </div>
+
+        <div class="mini-card">
+          <h3 class="mini-card__title">Ready To Build Your Community?</h3>
+          <button class="mini-card__button">Get Started For Free</button>
+        </div>
+
+      </div>
+
+      <footer>
+        <p class="logo"> <img src="images/logo.svg" alt="Logo icon"> </p>
+        <div class="icon-text">
+          <p class="icon-text__icon"> 
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+            <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg></p>
+        
+          <p class="icon-text__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua</p>
+        </div>
+
+      </footer>
+
     </div>
 
 </body>
