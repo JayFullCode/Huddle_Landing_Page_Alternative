@@ -30,3 +30,10 @@
         background-color: lighten($color: #fe52c0, $amount: 20%); 
     }
 }
+
+@include desktop-only{
+    .mini-card{
+        max-width: 500px;
+        margin: auto;  
+    }
+}

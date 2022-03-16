@@ -22,3 +22,16 @@
         background-color: lighten($color: #ff52be, $amount: 20%); 
     }
 }
+
+@include desktop-only{
+    .presentation{
+        display: flex; 
+        
+        div{            
+            margin: auto; 
+            margin-right: 3em;   
+
+            text-align: start; 
+        }
+    }
+}

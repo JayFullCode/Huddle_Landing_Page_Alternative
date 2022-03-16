@@ -60,6 +60,16 @@ header button {
   background-color: #ffb8e4;
 }
 
+@media screen and (min-width: 900px) {
+  .presentation {
+    display: flex;
+  }
+  .presentation div {
+    margin: auto;
+    margin-right: 3em;
+    text-align: start;
+  }
+}
 .card {
   padding: 3em;
   border-radius: 10px;
@@ -75,6 +85,36 @@ header button {
   width: 100%;
 }
 
+@media screen and (min-width: 900px) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 5em;
+    text-align: start;
+  }
+  .card__content {
+    grid-area: 2/2/3/3;
+  }
+  .card__img {
+    grid-area: 1/1/3/2;
+  }
+  .card__title {
+    grid-area: 1/2/2/3;
+    align-self: flex-end;
+  }
+
+  .card:nth-child(2) .card__content {
+    grid-area: 2/1/3/2;
+  }
+  .card:nth-child(2) .card__img {
+    grid-area: 1/2/3/3;
+  }
+  .card:nth-child(2) .card__title {
+    grid-area: 1/1/2/2;
+    align-self: flex-end;
+  }
+}
 .mini-card {
   position: relative;
   bottom: -70px;
@@ -102,6 +142,12 @@ header button {
   background-color: #ffb7e5;
 }
 
+@media screen and (min-width: 900px) {
+  .mini-card {
+    max-width: 500px;
+    margin: auto;
+  }
+}
 #top-page {
   background: #edfbfe url("/images/bg-hero-mobile.svg") no-repeat top right;
 }
