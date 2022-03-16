@@ -13,7 +13,7 @@ h1, h2, h3, h4 {
   font-weight: 600;
 }
 
-p {
+p, ul {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
@@ -57,42 +57,13 @@ header button {
 }
 .presentation__button:hover {
   cursor: pointer;
-}
-
-#top-page {
-  background: #edfbfe url("/images/bg-hero-mobile.svg") no-repeat top right;
-}
-
-#cards-container {
-  margin: 4em 1em;
-}
-
-footer {
-  margin: 0 1em;
-}
-
-.icon-text {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  font-size: 0.8em;
-  background-color: red;
-}
-.icon-text__icon {
-  width: 40px;
-  margin: 3px 1em;
-}
-.icon-text__icon svg {
-  height: 100%;
-}
-.icon-text__content {
-  margin: 0;
-  padding: 0;
+  background-color: #ffb8e4;
 }
 
 .card {
   padding: 3em;
-  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px gray;
   margin-bottom: 2em;
   text-align: center;
 }
@@ -105,12 +76,19 @@ footer {
 }
 
 .mini-card {
+  position: relative;
+  bottom: -70px;
   text-align: center;
-  border: 1px solid black;
-  padding: 0.3em;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px gray;
+  background-color: white;
+  padding: 2em 0;
 }
 .mini-card__title {
   font-size: 1em;
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 0;
 }
 .mini-card__button {
   background-color: #fe52c0;
@@ -118,6 +96,65 @@ footer {
   border-radius: 25px;
   border: none;
   color: white;
+  cursor: pointer;
+}
+.mini-card__button:hover {
+  background-color: #ffb7e5;
+}
+
+#top-page {
+  background: #edfbfe url("/images/bg-hero-mobile.svg") no-repeat top right;
+}
+
+#cards-container {
+  margin: 4em 1em;
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: #00252e;
+  color: white;
+  padding: 8em 30px 30px 30px;
+}
+footer .logo {
+  width: 10em;
+  margin: 0;
+  margin-bottom: 1em;
+}
+footer .logo img {
+  height: 100%;
+  width: 100%;
+}
+
+.infos {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.infos__img {
+  position: relative;
+  top: 5px;
+  margin: 0;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  padding: 0;
+}
+.infos__content {
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  margin-bottom: 1em;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

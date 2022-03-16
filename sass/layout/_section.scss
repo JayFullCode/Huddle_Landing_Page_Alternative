@@ -18,6 +18,7 @@
     }
 
     &__button:hover{
-        cursor: pointer; 
+        cursor: pointer;
+        background-color: lighten($color: #ff52be, $amount: 20%); 
     }
 }
